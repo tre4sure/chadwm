@@ -1,0 +1,154 @@
+sudo pacman -S bind-tools
+sudo pacman -S iwd
+sudo pacman -R iwgtk
+sudo pacman -R iwd
+pacman -R iwd
+pacman -h
+sudo pacman -Syu
+sudo pacman -S pacman-contrib
+pacman -Ss zzz
+sudo pacman -S iwgtk
+sudo pacman -S alsa-utils
+sudo pacman -S amixer
+pacman -S amixer
+pacman -Ss amixer
+sudo pacman -S dash
+sudo pacman -S picom
+sudo pacman -S xorg-xbacklight
+pacman -S xorg-xbacklight
+pacman -Ss xbacklight
+sudo pacman -S eww
+sudo pacman -S pot-translation
+sudo pacman -R pot-translation
+sudo pacman -R pot-translate
+pacman -R pot-translate
+sudo pacman -S lazygit
+pacman -Ss lazygit
+sudo pacman -Syu pacman
+sudo pacman -Sys pacman
+pacman -Sys pacman
+sudo pacman -S deno
+pacman -Ss deno
+sudo pacman -Ss python-djlint
+sudo pacman -Ss djhtml
+sudo pacman -Ss djlint
+sudo pacman -S redis
+pacman -Ss redis
+sudo pacman -S postman
+pacman -Ss postman
+sudo pacman -S neovide
+pacman -Ss neovide
+sudo pacman -S dbeaver
+pacman -Ss navicat
+pacman -Ss dbeaver
+ldd $(which pacman)
+sudo pacman -S libcrypto
+pacman -Ss libcrypto
+pacman -Ss libcapstone-dev
+pacman -Ss libcapstone
+sudo pacman -S nutstore
+nvim /etc/pacman.d/mirrorlist
+sudo pacman -S keepassxc
+sudo pacman -S linuxqq
+sudo pacman -S python-pip
+sudo pacman -Ss python-pip
+sudo pacman -Ss python3-pip
+pacman -Ss pip
+pacman -s pip
+sudo pacman -S dunst
+sudo pacman -S fuse
+sudo pacman -s linuxqq
+sudo pacman -R linuxqq
+sudo pacman -S tcpdump
+sudo pacman -S docker
+sudo pacman -S flameshot
+sudo pacman -R flameshot
+sudo pacman -S light
+sudo pacman -R xorg-xbacklight
+sudo pacman -R light
+sudo pacman -S htop
+sudo pacman -S copyq
+pacman -Ss linuxqq
+sudo pacman -S --overwrite "*" flameshot
+pacman -Ss betterlockscreen
+pacman -Ss betterlockscteen
+pacman -Ss rofi
+pacman -Ss networkmanager
+sudo pacman -S --needed wget nodejs npm xclip ripgrep fd ttf-jetbrains-mono-nerd unzip
+sudo pacman -Rns $(pacman -Qdtq)
+pacman -Q
+pacman --list
+sudo pacman -R xrdp
+pacman -R xrdp
+sudo pacman -Ss xrdp
+sudo pacman -S krfb
+pacman -Ss krfb
+sudo pacman -S light-locker
+pacman -Ss light-locker
+sudo pacman -S p7zip
+sudo pacman -S inetutils
+sudo pacman -S fish
+sudo pacman -S chezmoi
+sudo nvim /etc/pacman.d/mirrorlist
+sudo pacman-mirrors --fasttrack
+sudo pacman -S v2ray v2raya
+sudo pacman -S freerdp
+pacman -Ss freerdp
+sudo pacman -Ss remmina
+sudo pacman -S remmina-plugin-rdp
+sudo pacman -S remmina
+sudo pacman -S rdesktop
+pacman -Ss rdesktop
+sudo pacman -S autorandr
+sudo pacman -S xfce4
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+sudp pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+sudo pacman -S --noconfirm fcitx5-im fcitx5-chinese-addons fcitx5-pinyin-moegirl fcitx5-material-color
+sudo pacman -S --noconfirm wqy-zenhei
+sudo pacman -S rofi
+sudo pacman -S yay
+pacman -S --noconfirm yay
+sudo pacman-key --populate archlinuxcn
+pacman-key --populate archlinuxcn
+sudo pacman -S archlinuxcn-keyring
+sudo pacman -Syyu
+pacman -Syyu
+sudo nvim /etc/pacman.conf
+sudo pacman -S --noconfirm archlinuxcn-keyring yay
+sudo pacman-key --init
+pacman-key --init
+sudo pacman-key --populate archlinux
+nvim /etc/pacman.conf
+sudo rm -fr /etc/pacman.d/gnupg
+rm -fr /etc/pacman.d/gnupg
+sudo pacman -Syu --noconfirm haveged
+pacman -Syu --noconfirm haveged
+sudo pacman -Ss betterlock
+sudo pacman -S betterlock
+sudo pacman -S betterlockscreen
+sudo pacman -R xfce4-screensaver
+sudo pacman -S xfce4-screensaver
+sudo pacman -R light-locker
+sudo pacman -Ss light-locker
+sudo pacman -R xfce4-power-manager
+pacman -R xfce4-power-manager
+sudo pacman -S ttf-jetbrains-mono-nerd
+sudo pacman -Ss sflock
+sudo pacman -S xfce4-power-manager
+sudo pacman --remove gnome-power-manager
+sudo pacman --remote gnome-power-manager
+sudo pacman -S gnome-power-manager
+sudo pacman -Ss power-manager
+sudo pacman -S power-manager
+sudo pacman -S xface4-power-manager
+sudo pacman -S xorg-xset
+sudp pacman -S xorg-xset
+sudo pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel
+sudo pacman -S net-tools
+sudo pacman -S tigervnc
+sudo pacman -S --noconfirm --needed lightdm lightdm-slick-greeter plymouth
+pacman -Ss xorg
+sudo pacman -S --noconfirm --needed make gcc git
+sudo pacman -S git
+sudo pacman -Syyu --noconfirm
+pacman -Syyu --noconfirm

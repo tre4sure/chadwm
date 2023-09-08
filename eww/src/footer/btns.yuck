@@ -17,7 +17,7 @@
   )
 
 (btn :name "󰌾"
-  :command "slock & doas zzz"
+  :command "betterlockscreen -l -q"
   :class "lock"
  )
 
@@ -27,7 +27,7 @@
   )
 
  (btn :name "" 
-    :command "doas zzz"
+    :command "betterlockscreen -l -q & doas zzz"
     :class "sleep"
   )
 ))
