@@ -1,5 +1,5 @@
 .btn {
-  font-family: "JetbrainsMono Nerd Font Mono";
+  font-family: "FiraCode Nerd Font Mono";
   font-size: 2rem;
   padding: 0 1.3rem;
   box-shadow: none;
@@ -24,7 +24,10 @@
   padding: 0 1.4rem;
 }
 
-.lock:hover , .restart:hover, .wifi:hover, .sleep:hover{
+.lock:hover,
+.restart:hover,
+.wifi:hover,
+.sleep:hover {
   background-color: $green;
   color: $black;
 }
@@ -36,7 +39,10 @@
   font-size: 2.7rem;
 }
 
-.lock, .restart, .close, .wifi{
+.lock,
+.restart,
+.close,
+.wifi {
   transition: ease-out .2s;
 }
 

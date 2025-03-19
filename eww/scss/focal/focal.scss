@@ -4,11 +4,14 @@
 }
 
 // progress bars
-.CPU, .RAM , .DISK, .battery {
+.CPU,
+.RAM,
+.DISK,
+.battery {
   background-color: $blackAlt;
   color: $blue;
   font-size: 3.1rem;
-  font-family: 'JetBrainsMono Nerd Font Mono';
+  font-family: 'FiraCode Nerd Font Mono';
 }
 
 .RAM {
@@ -20,18 +23,18 @@
 }
 
 .DISK {
-  font-size: 1rem;
+  font-size: 2.5rem;
   color: $white;
   background-color: $grey;
 }
 
 .time {
-  font-family: 'Iosevka';
+  font-family: 'FiraCode Nerd Font Mono';
   font-size: 1.2rem;
   background-color: $blackAlt;
   margin: 2.5rem 0.5rem;
   margin-bottom: -0.6rem;
-  border-radius:1rem;
+  border-radius: 1rem;
   padding: 0 1rem;
   color: $white;
 }
@@ -40,9 +43,9 @@
   background-color: $blackAlt;
   border-radius: 1rem;
   color: $green;
-  font-family: 'JetBrainsMono Nerd Font Mono ';
+  font-family: 'FiraCode Nerd Font Mono';
   font-size: 3rem;
-  margin:  .8rem ;
+  margin: .8rem;
 }
 
 .mute:hover {
@@ -50,13 +53,13 @@
   color: $white;
 }
 
-.pkgs{
- margin: 1.5rem;
- border-radius: 1rem;
- font-family: 'Comic Mono';
- color: $green;
- background-color: $blackAlt;
- padding: 0 1rem;
+.pkgs {
+  margin: 1.5rem;
+  border-radius: 1rem;
+  font-family: 'FiraCode Nerd Font Mono';
+  color: $green;
+  background-color: $blackAlt;
+  padding: 0 1rem;
 }
 
 .pkgsBox {
@@ -71,4 +74,4 @@
 
 .RAMBOX {
   margin-left: .4rem;
-} 
+}

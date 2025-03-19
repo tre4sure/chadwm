@@ -2,17 +2,17 @@
 #
 pkgUpdates() {
 	# updates=$(xbps-install -S -un | cut -d' ' -f2 | sort | uniq -c | xargs)
-  updates=$(checkupdates 2>/dev/null | wc -l) # arch
+	updates=$(checkupdates 2>/dev/null | wc -l) # arch
 
 	if [ -z "$updates" ]; then
-		echo "Updated"
+		echo " up-to-date"
 	else
-		echo "$updates"" updates"
+		echo "󰚰 $updates updates"
 	fi
 }
 
 battery() {
-	cat /sys/class/power_supply/BAT1/capacity
+	cat /sys/class/power_supply/BAT0/capacity
 }
 
 cpu() {
@@ -28,7 +28,7 @@ ram() {
 }
 
 backlight() {
-	printf "%.0f\n" $(xbacklight -get)
+	printf "%.0f\n" $(light -G)
 }
 
 wifi() {

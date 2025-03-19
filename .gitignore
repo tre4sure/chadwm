@@ -1,8 +1,10 @@
-chadwm/dwm 
-chadwm/config.h 
+chadwm/dwm
+chadwm/config.h
 chadwm/*.o
 chadwm/*.orig
 chadwm/*.rej
 .ccls-cache/
 setup*
 up.sh
+
+chadwm/bin

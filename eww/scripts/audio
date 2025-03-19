@@ -5,11 +5,11 @@ headvol() {
 }
 
 mastervol() {
-  amixer get Master | awk '$0~/%/{print $4}' | tr -d '[%]'
+  pactl get-sink-volume 0 | grep -oP '\d+%' | head -n 1
 }
 
 micvol() {
-  amixer sget Mic | grep 'Left:' | cut -d\  -f7 | tr -d '[%]'
+  pactl get-source-volume 0 | grep -oP '\d+%' | head -n 1 | tr -d '%'
 }
 
 "$@"

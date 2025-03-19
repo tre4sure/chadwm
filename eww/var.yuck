@@ -16,7 +16,7 @@
     "date +'%H:%M'")
 
 (defpoll date :interval "1s"
-    "date +'%a, %d %m %y'")
+    "date +'%y/%m/%d 星期%a'")
 
 ; sliders
 
@@ -27,7 +27,7 @@
 (defpoll head_vol :interval "1s"
   "scripts/audio headvol")
 
-(defpoll mic_vol :interval "1h"
+(defpoll mic_vol :interval "1s"
   "scripts/audio micvol")
 
 ; backlight 

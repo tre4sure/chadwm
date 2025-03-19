@@ -17,17 +17,17 @@
   )
 
 (btn :name "󰌾"
-  :command "slock & doas zzz"
+  :command "betterlockscreen -l -q"
   :class "lock"
  )
 
  (btn :name wifi 
-   :command "iwgtk"
+   :command "iwgtk &"
    :class "wifi"
   )
 
  (btn :name "" 
-    :command "doas zzz"
+    :command "betterlockscreen -l -q & doas zzz -z"
     :class "sleep"
   )
 ))
