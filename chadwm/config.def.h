@@ -37,10 +37,10 @@ static const int new_window_attach_on_end = 0; /*  1 means the new window will a
 #define ICONSIZE 19   /* icon size */
 #define ICONSPACING 8 /* space between icon and title */
 
-static const char *fonts[]          = {"Iosevka:style:medium:size=12" ,"JetBrainsMono NFM:style:medium:size=19" };
+static const char *fonts[]          = {"Iosevka:style:medium:size=12", "FiraCode Nerd Font Mono:style:Light:size=19"};
 
 // theme
-#include "themes/onedark.h"
+#include "themes/catppuccin.h"
 
 static const char *colors[][3]      = {
     /*                     fg       bg      border */
@@ -150,7 +150,7 @@ static const Key keys[] = {
         SHCMD("maim --select | xclip -selection clipboard -t image/png")},
 
     { MODKEY,                           XK_c,       spawn,          SHCMD("rofi -show drun") },
-    { MODKEY,                           XK_Return,  spawn,          SHCMD("st")},
+    { MODKEY,                           XK_Return,  spawn,          SHCMD("alacritty")},
 
     // toggle stuff
     { MODKEY,                           XK_b,       togglebar,      {0} },
@@ -257,7 +257,7 @@ static const Button buttons[] = {
     { ClkLtSymbol,          0,              Button1,        setlayout,      {0} },
     { ClkLtSymbol,          0,              Button3,        setlayout,      {.v = &layouts[2]} },
     { ClkWinTitle,          0,              Button2,        zoom,           {0} },
-    { ClkStatusText,        0,              Button2,        spawn,          SHCMD("st") },
+    { ClkStatusText,        0,              Button2,        spawn,          SHCMD("alacritty") },
 
     /* Keep movemouse? */
     /* { ClkClientWin,         MODKEY,         Button1,        movemouse,      {0} }, */

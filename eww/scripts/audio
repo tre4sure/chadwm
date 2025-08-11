@@ -5,7 +5,7 @@ headvol() {
 }
 
 mastervol() {
-  pactl get-sink-volume 0 | grep -oP '\d+%' | head -n 1
+  pactl get-sink-volume 0 | grep -oP '\d+%' | head -n 1 | tr -d '%'
 }
 
 micvol() {

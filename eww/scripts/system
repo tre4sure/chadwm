@@ -24,11 +24,11 @@ disk() {
 }
 
 ram() {
-	printf "%.0f\n" $(free -m | grep Mem | awk '{print ($3/$2)*100}')
+	printf "%.0f\n" "$(LANG=C free -m | awk '/Mem:/ {print ($3/$2)*100}')"
 }
 
 backlight() {
-	printf "%.0f\n" $(light -G)
+	printf "%.0f\n" "$(light -G)"
 }
 
 wifi() {

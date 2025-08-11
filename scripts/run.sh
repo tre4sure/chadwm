@@ -3,7 +3,7 @@
 # exec >/tmp/run.log 2>&1
 
 # 开机启动
-# xrdb merge ~/.Xresources
+xrdb merge ~/.Xresources
 light -S 39
 # feh --bg-fill ~/Pictures/wall/gruv.png &
 xset r rate 200 50 &
@@ -15,4 +15,12 @@ flameshot &
 
 ~/scripts/switch_monitor.sh &
 dash /usr/bin/bar.sh &
-while type chadwm >/dev/null; do chadwm && continue || break; done
+
+# run chadwm
+while type chadwm >/dev/null; do
+    if chadwm; then
+        continue
+    else
+        break
+    fi
+done

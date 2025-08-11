@@ -22,7 +22,7 @@
  )
 
  (btn :name wifi 
-   :command "iwgtk &"
+   :command "alacritty -e nmtui &"
    :class "wifi"
   )
 
